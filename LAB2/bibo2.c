@@ -27,7 +27,7 @@ int main(void) {
 
     double rezultatik = (2.0 / sqrt(M_PI)) * sum;
     op_schetchik += 4;
-    printf("Результат: %f\n", rezultatik);
+    printf("Результат: %.7f\n", rezultatik);
     printf("Кількість операцій: %llu\n", op_schetchik);
 
     return 0;
